@@ -1,0 +1,40 @@
+//
+//  ModelConfig.swift
+//  HISTL
+//
+// Created by Washieu Anan on 8/6/23.
+
+import Foundation
+
+struct ModelConfig: Codable, Hashable {
+    let model_lib: String
+    let local_id: String
+    let tokenizer_files: [String]
+    let display_name: String!
+    let estimated_vram_req: Int64!
+}
+
+struct ParamsRecord: Codable, Hashable {
+    let dataPath: String
+}
+
+struct ParamsConfig: Codable, Hashable {
+    let records: [ParamsRecord]
+}
+
+struct ModelRecord: Codable, Hashable {
+    let model_url: String
+    let local_id: String
+}
+
+struct AppConfig: Codable, Hashable {
+    let model_libs: [String]
+    var model_list: [ModelRecord]
+    let add_model_samples: [ModelRecord]
+}
+
+struct ExampleModelUrl: Hashable, Identifiable {
+    let id = UUID()
+    let model_url: String
+    let local_id: String
+}

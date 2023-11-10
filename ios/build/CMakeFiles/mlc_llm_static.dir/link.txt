@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmlc_llm.a CMakeFiles/mlc_llm_objs.dir/cpp/conv_templates.cc.o CMakeFiles/mlc_llm_objs.dir/cpp/conversation.cc.o CMakeFiles/mlc_llm_objs.dir/cpp/image_embed.cc.o CMakeFiles/mlc_llm_objs.dir/cpp/llm_chat.cc.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmlc_llm.a

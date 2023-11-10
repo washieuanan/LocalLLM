@@ -1,0 +1,1272 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: iOS - 14.0 - 
+      The host system is: Darwin - 22.4.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library not found for -lSystem
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+      Build flags: -O3
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library not found for -lc++
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+      Build flags: -O3
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-hRKXDt"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-hRKXDt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-hRKXDt
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8fe3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e8fe3.dir/build.make CMakeFiles/cmTC_e8fe3.dir/build
+        Building C object CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: arm64-apple-darwin22.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=16.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +v8a -target-feature +crypto -target-feature +fp-armv8 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-hRKXDt -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-hRKXDt -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C static library libcmTC_e8fe3.a
+        /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -P CMakeFiles/cmTC_e8fe3.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8fe3.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcmTC_e8fe3.a CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcmTC_e8fe3.a
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-hRKXDt]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8fe3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e8fe3.dir/build.make CMakeFiles/cmTC_e8fe3.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0   -v -Wl -v -MD -MT CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: arm64-apple-darwin22.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=16.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +v8a -target-feature +crypto -target-feature +fp-armv8 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-hRKXDt -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-hRKXDt -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C static library libcmTC_e8fe3.a]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -P CMakeFiles/cmTC_e8fe3.dir/cmake_clean_target.cmake]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8fe3.dir/link.txt --verbose=1]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcmTC_e8fe3.a CMakeFiles/cmTC_e8fe3.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcmTC_e8fe3.a]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-4TAusk"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-4TAusk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-4TAusk
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aba6c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_aba6c.dir/build.make CMakeFiles/cmTC_aba6c.dir/build
+        Building CXX object CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0   -v -Wl,-v -MD -MT CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: arm64-apple-darwin22.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -mllvm -extra-vectorizer-passes -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=16.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +v8a -target-feature +crypto -target-feature +fp-armv8 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-4TAusk -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O3 -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-4TAusk -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX static library libcmTC_aba6c.a
+        /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -P CMakeFiles/cmTC_aba6c.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aba6c.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcmTC_aba6c.a CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcmTC_aba6c.a
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-4TAusk]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aba6c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_aba6c.dir/build.make CMakeFiles/cmTC_aba6c.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0   -v -Wl -v -MD -MT CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: arm64-apple-darwin22.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -mllvm -extra-vectorizer-passes -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=16.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +v8a -target-feature +crypto -target-feature +fp-armv8 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-4TAusk -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O3 -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-4TAusk -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX static library libcmTC_aba6c.a]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -P CMakeFiles/cmTC_aba6c.dir/cmake_clean_target.cmake]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aba6c.dir/link.txt --verbose=1]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcmTC_aba6c.a CMakeFiles/cmTC_aba6c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcmTC_aba6c.a]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:6 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test SUPPORT_CXX17"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-7PcHmq"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-7PcHmq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+    buildResult:
+      variable: "SUPPORT_CXX17"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-7PcHmq
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_61a1b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_61a1b.dir/build.make CMakeFiles/cmTC_61a1b.dir/build
+        Building CXX object CMakeFiles/cmTC_61a1b.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DSUPPORT_CXX17  -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0   -std=c++17 -MD -MT CMakeFiles/cmTC_61a1b.dir/src.cxx.o -MF CMakeFiles/cmTC_61a1b.dir/src.cxx.o.d -o CMakeFiles/cmTC_61a1b.dir/src.cxx.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-7PcHmq/src.cxx
+        Linking CXX executable cmTC_61a1b.app/cmTC_61a1b
+        /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61a1b.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_61a1b.dir/src.cxx.o -o cmTC_61a1b.app/cmTC_61a1b 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67d87/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_67d87.dir/build.make CMakeFiles/cmTC_67d87.dir/build
+        Building CXX object CMakeFiles/cmTC_67d87.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_67d87.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_67d87.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_67d87.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_67d87.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_67d87/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cc0a7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cc0a7.dir/build.make CMakeFiles/cmTC_cc0a7.dir/build
+        Building CXX object CMakeFiles/cmTC_cc0a7.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_cc0a7.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_cc0a7.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_cc0a7.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_cc0a7.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_cc0a7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "3rdparty/tvm/CMakeLists.txt:650 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-5GH4Vf"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-5GH4Vf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-O2 -Wall -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-5GH4Vf
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_51de1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_51de1.dir/build.make CMakeFiles/cmTC_51de1.dir/build
+        Building C object CMakeFiles/cmTC_51de1.dir/src.c.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -O2 -Wall -fPIC   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_51de1.dir/src.c.o -MF CMakeFiles/cmTC_51de1.dir/src.c.o.d -o CMakeFiles/cmTC_51de1.dir/src.c.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeScratch/TryCompile-5GH4Vf/src.c
+        Linking C executable cmTC_51de1.app/cmTC_51de1
+        /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51de1.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -O2 -Wall -fPIC   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_51de1.dir/src.c.o -o cmTC_51de1.app/cmTC_51de1 
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7ac7e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7ac7e.dir/build.make CMakeFiles/cmTC_7ac7e.dir/build
+        Building CXX object CMakeFiles/cmTC_7ac7e.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_7ac7e.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_7ac7e.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_7ac7e.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_7ac7e.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_7ac7e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d256c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d256c.dir/build.make CMakeFiles/cmTC_d256c.dir/build
+        Building CXX object CMakeFiles/cmTC_d256c.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_d256c.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_d256c.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_d256c.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_d256c.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_d256c/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_44e67/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_44e67.dir/build.make CMakeFiles/cmTC_44e67.dir/build
+        Building CXX object CMakeFiles/cmTC_44e67.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_44e67.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_44e67.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_44e67.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_44e67.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_44e67/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6767/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b6767.dir/build.make CMakeFiles/cmTC_b6767.dir/build
+        Building CXX object CMakeFiles/cmTC_b6767.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_b6767.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_b6767.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_b6767.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_b6767.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_b6767/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_40f9c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_40f9c.dir/build.make CMakeFiles/cmTC_40f9c.dir/build
+        Building CXX object CMakeFiles/cmTC_40f9c.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_40f9c.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_40f9c.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_40f9c.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_40f9c.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_40f9c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3680e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3680e.dir/build.make CMakeFiles/cmTC_3680e.dir/build
+        Building CXX object CMakeFiles/cmTC_3680e.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_3680e.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_3680e.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_3680e.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_3680e.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_3680e/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_73227/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_73227.dir/build.make CMakeFiles/cmTC_73227.dir/build
+        Building CXX object CMakeFiles/cmTC_73227.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_73227.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_73227.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_73227.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_73227.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_73227/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fe261/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fe261.dir/build.make CMakeFiles/cmTC_fe261.dir/build
+        Building CXX object CMakeFiles/cmTC_fe261.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_fe261.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_fe261.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_fe261.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_fe261.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_fe261/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1b48d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1b48d.dir/build.make CMakeFiles/cmTC_1b48d.dir/build
+        Building CXX object CMakeFiles/cmTC_1b48d.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_1b48d.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_1b48d.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_1b48d.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_1b48d.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_1b48d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_990e1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_990e1.dir/build.make CMakeFiles/cmTC_990e1.dir/build
+        Building CXX object CMakeFiles/cmTC_990e1.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_990e1.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_990e1.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_990e1.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_990e1.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_990e1/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f3b8d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f3b8d.dir/build.make CMakeFiles/cmTC_f3b8d.dir/build
+        Building CXX object CMakeFiles/cmTC_f3b8d.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_f3b8d.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_f3b8d.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_f3b8d.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_f3b8d.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_f3b8d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dde4e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dde4e.dir/build.make CMakeFiles/cmTC_dde4e.dir/build
+        Building CXX object CMakeFiles/cmTC_dde4e.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_dde4e.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_dde4e.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_dde4e.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_dde4e.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_dde4e/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1abd0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1abd0.dir/build.make CMakeFiles/cmTC_1abd0.dir/build
+        Building CXX object CMakeFiles/cmTC_1abd0.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_1abd0.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_1abd0.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_1abd0.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_1abd0.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_1abd0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2ec78/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2ec78.dir/build.make CMakeFiles/cmTC_2ec78.dir/build
+        Building CXX object CMakeFiles/cmTC_2ec78.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_2ec78.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_2ec78.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_2ec78.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_2ec78.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_2ec78/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bf4c4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bf4c4.dir/build.make CMakeFiles/cmTC_bf4c4.dir/build
+        Building CXX object CMakeFiles/cmTC_bf4c4.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_bf4c4.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_bf4c4.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_bf4c4.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_bf4c4.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_bf4c4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_412c7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_412c7.dir/build.make CMakeFiles/cmTC_412c7.dir/build
+        Building CXX object CMakeFiles/cmTC_412c7.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_412c7.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_412c7.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_412c7.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_412c7.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_412c7/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_db3ef/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_db3ef.dir/build.make CMakeFiles/cmTC_db3ef.dir/build
+        Building CXX object CMakeFiles/cmTC_db3ef.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_db3ef.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_db3ef.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_db3ef.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_db3ef.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_db3ef/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_311e5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_311e5.dir/build.make CMakeFiles/cmTC_311e5.dir/build
+        Building CXX object CMakeFiles/cmTC_311e5.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_311e5.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_311e5.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_311e5.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_311e5.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_311e5/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3a1fc/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3a1fc.dir/build.make CMakeFiles/cmTC_3a1fc.dir/build
+        Building CXX object CMakeFiles/cmTC_3a1fc.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_3a1fc.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_3a1fc.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_3a1fc.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_3a1fc.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_3a1fc/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4d2dd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4d2dd.dir/build.make CMakeFiles/cmTC_4d2dd.dir/build
+        Building CXX object CMakeFiles/cmTC_4d2dd.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_4d2dd.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_4d2dd.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_4d2dd.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_4d2dd.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_4d2dd/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6bad5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6bad5.dir/build.make CMakeFiles/cmTC_6bad5.dir/build
+        Building CXX object CMakeFiles/cmTC_6bad5.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_6bad5.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_6bad5.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_6bad5.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_6bad5.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_6bad5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_27aa1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_27aa1.dir/build.make CMakeFiles/cmTC_27aa1.dir/build
+        Building CXX object CMakeFiles/cmTC_27aa1.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_27aa1.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_27aa1.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_27aa1.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_27aa1.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_27aa1/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:245 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_HEXAGON"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ae234/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ae234.dir/build.make CMakeFiles/cmTC_ae234.dir/build
+        Building CXX object CMakeFiles/cmTC_ae234.dir/test_for_hexagon.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_ae234.dir/test_for_hexagon.cc.o -MF CMakeFiles/cmTC_ae234.dir/test_for_hexagon.cc.o.d -o CMakeFiles/cmTC_ae234.dir/test_for_hexagon.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_hexagon.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_ae234.dir/test_for_hexagon.cc.o] Error 1
+        make: *** [cmTC_ae234/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "3rdparty/tvm/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+      binary: "/Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-faligned-new -O2 -Wall -fPIC -std=c++17 -O3"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "14.0"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BUILD_FOR_ANDROID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7a8a8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7a8a8.dir/build.make CMakeFiles/cmTC_7a8a8.dir/build
+        Building CXX object CMakeFiles/cmTC_7a8a8.dir/test_for_android.cc.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -faligned-new -O2 -Wall -fPIC -std=c++17 -O3  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -miphoneos-version-min=14.0 -fPIE -MD -MT CMakeFiles/cmTC_7a8a8.dir/test_for_android.cc.o -MF CMakeFiles/cmTC_7a8a8.dir/test_for_android.cc.o.d -o CMakeFiles/cmTC_7a8a8.dir/test_for_android.cc.o -c /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc
+        /Users/washieu/Desktop/dev/mlc-llm/ios/build/CMakeFiles/CMakeTmp/test_for_android.cc:2:2: error: 
+        #error
+         ^
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_7a8a8.dir/test_for_android.cc.o] Error 1
+        make: *** [cmTC_7a8a8/fast] Error 2
+        
+      exitCode: 2
+...

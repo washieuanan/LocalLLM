@@ -1,0 +1,11 @@
+/Users/washieu/Desktop/dev/mlc-llm/ios/build/tokenizers/aarch64-apple-ios/release/deps/getrandom-8e710fc93b831dcd.rmeta: /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/apple-other.rs
+
+/Users/washieu/Desktop/dev/mlc-llm/ios/build/tokenizers/aarch64-apple-ios/release/deps/libgetrandom-8e710fc93b831dcd.rlib: /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/apple-other.rs
+
+/Users/washieu/Desktop/dev/mlc-llm/ios/build/tokenizers/aarch64-apple-ios/release/deps/getrandom-8e710fc93b831dcd.d: /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs /Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/apple-other.rs
+
+/Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs:
+/Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs:
+/Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs:
+/Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs:
+/Users/washieu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/apple-other.rs:

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+91abe1df23325718e97fe80550907bb5 tokenizers/aarch64-apple-ios/release/libtokenizers_c.a
+06f8c0373f1a187e042ce72108ffbf26 tvm/CMakeFiles/runtime
